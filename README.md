@@ -3,7 +3,7 @@
 
 ## 🧠 Project Summary
 
-Analyzed and predicted NVIDIA (NVDA) stock price trends using a full data pipeline: data cleaning (Python), feature engineering (SQL), predictive modeling (Python), and dashboard visualization (Power BI).
+This project presents a complete end-to-end data analysis and prediction pipeline for NVIDIA (NVDA) stock price trends using a combination of Python, SQL (PostgreSQL), and Power BI. The goal was to clean and preprocess historical stock data, engineer time-series financial features, and build a predictive model to forecast next-day closing prices.
 
 ---
 
