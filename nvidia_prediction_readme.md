@@ -18,7 +18,7 @@ Analyzed and predicted NVIDIA (NVDA) stock price trends using a full data pipeli
 ### ✏️ 1. Data Cleaning (Python)
 
 - Loaded raw CSV with misaligned headers
-- Cleaned and standardized column names
+- Cleaned and standardised column names
 - Parsed dates and ensured numeric data types
 - Removed nulls and sorted chronologically
 
@@ -26,8 +26,8 @@ Analyzed and predicted NVIDIA (NVDA) stock price trends using a full data pipeli
 
 - Engineered the following fields:
   - `daily_return`: % change from previous close
-  - `price_change`: close - open
-  - `price_range`: high - low
+  - `price_change`: close-open
+  - `price_range`: high-low
   - `volume_change`: daily volume difference
   - `ma_5`, `ma_10`: 5-day and 10-day moving averages (window functions)
 - Rounded all outputs to 2 or 4 decimal places
@@ -40,7 +40,7 @@ Analyzed and predicted NVIDIA (NVDA) stock price trends using a full data pipeli
 - Model: `LinearRegression` from `scikit-learn`
 - Evaluation: RMSE, R², actual vs. predicted chart
 
-### 🔄 4. Visualization (Power BI)
+### 🔄 4. Visualisation (Power BI)
 
 - Time-series line chart with moving averages
 - Daily return and price range visuals
@@ -52,8 +52,8 @@ Analyzed and predicted NVIDIA (NVDA) stock price trends using a full data pipeli
 
 ## 📊 Results
 
-- **RMSE**: (to be filled in after model run)
-- **R² Score**: (to be filled in after model run)
+- **RMSE**: 10.2453
+- **R² Score**: 0.9381
 - Model captured overall trend with reasonable accuracy
 - Dashboard provided intuitive financial insights
 
@@ -88,5 +88,5 @@ nvidia-stock-prediction/
 
 ## ✨ Author
 
-*Your Name Here* — [LinkedIn] | [GitHub] | [Portfolio Website]
+Rudra Bhende — [LinkedIn](https://www.linkedin.com/in/rudra-bhende/) | [GitHub](https://github.com/rudrabhende03/Rudra-s-Portfolio)
 
