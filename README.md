@@ -64,14 +64,18 @@ Analyzed and predicted NVIDIA (NVDA) stock price trends using a full data pipeli
 
 ```
 nvidia-stock-prediction/
+├── cleaning/
+│   └── data_cleaning.py
 ├── data/
 │   └── nvidia_features.csv
+│   └── NVIDIA_STOCK.csv
 ├── sql/
 │   └── feature_engineering.sql
 ├── scripts/
 │   └── prediction_model.py
 ├── visuals/
-│   └── prediction_plot.png
+│   └── Nvidia_Stock_Analysis.png
+│   └── Prediction_Graph.png
 ├── dashboard/
 │   └── nvidia_dashboard.pbix
 └── README.md
